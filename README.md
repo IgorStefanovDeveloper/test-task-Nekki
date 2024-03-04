@@ -1,11 +1,15 @@
-Тестовое задание: https://docs.google.com/document/d/1gRHb3BZab93XeeZ2NOjqNdJ4u2o-mzTU_xuoNE7zQnQ/edit
+<h1>Тестовое задание</h1>
+<p>Тестовое задание: https://docs.google.com/document/d/1gRHb3BZab93XeeZ2NOjqNdJ4u2o-mzTU_xuoNE7zQnQ/edit</p>
 
-Без роутинга и чпу.
-Запросы к бд можно посмотреть в файле db.sql
-Для валидации данных(name, description) используется паттерн проектирования "Цепочка обязанностей" (Chain of Responsibility).
-Для работы с базой данных MysqlProvider используется паттерн проектирования "Одиночка" (Singleton).
-Запуск тестов vendor\bin\phpunit ./tests
+<ul>
+<li>Без роутинга и чпу.</li>
+<li>Запросы к бд можно посмотреть в файле db.sql</li>
+<li>Для валидации данных(name, description) используется паттерн проектирования "Цепочка обязанностей" (Chain of Responsibility).</li>
+<li>Для работы с базой данных MysqlProvider используется паттерн проектирования "Одиночка" (Singleton).</li>
+<li>Запуск тестов vendor\bin\phpunit ./tests</li>
+</ul>
 ___________
+<p>
 Имеется таблица тарифных планов следующей структуры:
 id [int(11)]
 type [varchar(255)]
@@ -34,3 +38,4 @@ is_active [tinyint(1)]
 
 Никакие представления создавать не надо, реализовывать как метод апи.
 Для реализации функционала использовать PHP+Yii+Mysql, либо другую бд по выбору. Также можно использовать чистый PHP.
+</p>
